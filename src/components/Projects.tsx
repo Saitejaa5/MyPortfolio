@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: "Rivaaz – AI Powered Event Planning Platform",
       description: "AI-powered event planning with budget tracking and smart vendor matching.",
-      image: "C:/Users/Gaurav/OneDrive/Desktop/portfolio 1/project/public/images/rivaaz.jpg",
+      image: "/images/rivaaz.jpg",
       github: "https://github.com/Saitejaa5/My-projects/tree/main/Rivaaz(%20Event%20planning%20platform)",
       technologies: ["Python", "Machine Learning", "Django", "React"]
     },
