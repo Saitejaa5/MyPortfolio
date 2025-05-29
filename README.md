@@ -1,6 +1,3 @@
-Here's your customized version of the **Portfolio README** and setup instructions, now transformed with your personal information:
-
----
 
 # Portfolio  – Anasuri Sai Teja
 
@@ -86,6 +83,3 @@ The output will be in the `dist` folder. You can deploy it to platforms like Ver
 * 💼 LinkedIn: [linkedin.com/in/saitejaa5](https://www.linkedin.com/in/saitejaa5/)
 * 🖥️ GitHub: [github.com/Saitejaa5](https://github.com/Saitejaa5/)
 
----
-
-Let me know if you want the full `README.md` file or want to auto-upload this to GitHub!
