@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
   const textRef = useRef<HTMLSpanElement>(null);
   
   useEffect(() => {
-    const phrases = ['AI & ML Enthusiast', 'Data Science Explorer', 'Deep Learning Enthusiast'];
+    const phrases = ['AI & ML Enthusiast'];
     let currentPhrase = 0;
     let currentChar = 0;
     let isDeleting = false;
