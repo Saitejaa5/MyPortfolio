@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: "Rivaaz – AI Powered Event Planning Platform",
       description: "AI-powered event planning with budget tracking and smart vendor matching.",
-      image: "public/images/rivaaz.jpg",
+      image: "/images/rivaaz.jpg",
       github: "https://github.com/Saitejaa5/My-projects/tree/main/Rivaaz(%20Event%20planning%20platform)",
       technologies: ["Python", "Machine Learning", "Django", "React"]
     },
@@ -70,9 +70,11 @@ const Projects: React.FC = () => {
             >
               <div className="relative overflow-hidden aspect-video">
                 <div className="absolute inset-0 bg-blue-900/20 dark:bg-blue-900/40 z-10"></div>
-                <div className="h-full w-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                  <p className="text-sm font-medium text-gray-500">Project Image<br />(Add to {project.image})</p>
-                </div>
+                <img 
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover"
+                />
                 
                 {activeProject === project.id && (
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent z-20 flex items-end justify-start p-6 transition-opacity duration-300">
