@@ -19,31 +19,31 @@ const Certifications: React.FC = () => {
     {
       title: "Java Programming Masterclass",
       issuer: "Udemy",
-      date: "2023",
+      date: "2024",
       url: "https://www.udemy.com/"
     },
     {
       title: "SQL for Data Science",
       issuer: "DataCamp",
-      date: "2022",
+      date: "2025",
       url: "https://www.datacamp.com/"
     },
     {
       title: "Machine Learning",
       issuer: "Coursera (Andrew Ng)",
-      date: "2023",
+      date: "2025",
       url: "https://www.coursera.org/specializations/machine-learning-introduction"
     },
     {
       title: "Python for Data Science",
       issuer: "IBM",
-      date: "2022",
+      date: "2024",
       url: "https://www.ibm.com/training/badge/python-for-data-science"
     },
     {
       title: "Data Analysis with Python",
       issuer: "freeCodeCamp",
-      date: "2022",
+      date: "2024",
       url: "https://www.freecodecamp.org/learn/data-analysis-with-python/"
     }
   ];
