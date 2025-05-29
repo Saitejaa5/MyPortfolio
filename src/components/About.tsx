@@ -15,10 +15,11 @@ const About: React.FC = () => {
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
                 <div className="relative aspect-square overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-800 shadow-xl">
-                  {/* Replace with your profile image */}
-                  <div className="h-full w-full flex items-center justify-center bg-gray-200 dark:bg-gray-700 text-gray-500 dark:text-gray-400">
-                    <p className="text-sm font-medium">Profile Image<br />(Add your photo to /public/images/profile.jpg)</p>
-                  </div>
+                  <img 
+                    src="/images/profile.jpg" 
+                    alt="Anasuri Saiteja"
+                    className="h-full w-full object-cover"
+                  />
                 </div>
               </div>
             </div>
